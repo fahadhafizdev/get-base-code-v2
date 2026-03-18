@@ -9,7 +9,7 @@ import 'app/routes/app_pages.dart';
 
 void main() async {
   //init env
-  await dotenv.load(fileName: ".env");
+  // await dotenv.load(fileName: ".env");
 
   //init format date
   initializeDateFormatting();
